@@ -2,6 +2,8 @@ mod data_types;
 mod guess_number;
 mod variables_and_mutability;
 mod functions;
+mod control_flow;
+mod temperature_conversion;
 
 fn main() {
     // println!("Hello, world!");
@@ -24,5 +26,12 @@ fn main() {
     // 数据类型学习
     // data_types::main();
 
-    functions::main();
+    // 函数
+    // functions::main();
+
+    // 流程控制
+    // control_flow::main();
+
+    // 温度转换
+    temperature_conversion::main();
 }
