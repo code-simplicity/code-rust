@@ -4,6 +4,7 @@ mod variables_and_mutability;
 mod functions;
 mod control_flow;
 mod temperature_conversion;
+mod sunderstanding_ownership;
 
 fn main() {
     // println!("Hello, world!");
@@ -33,5 +34,8 @@ fn main() {
     // control_flow::main();
 
     // 温度转换
-    temperature_conversion::main();
+    // temperature_conversion::main();
+
+    // 所有权
+    sunderstanding_ownership::main();
 }
